@@ -153,10 +153,12 @@ q2.className="show"
                             document.getElementById("marks").innerHTML=  marks
                             document.getElementById("cor").innerHTML=  corr
                             document.getElementById("wro").innerHTML=  wro
-                            if(marks>=50)
-                            document.getElementById("remark").innerHTML=  "CONGRATULATIONS!!! You Have Passed"
-                            else
-                            document.getElementById("remark").innerHTML=  "OOPS!!! Try Again"
+                            if(obt>=50)
+                           { document.getElementById("remark").innerHTML=  "CONGRATULATIONS!!! You Have Passed"
+                           } 
+                           else
+                          {  document.getElementById("remark").innerHTML=  "OOPS!!! Try Again"
+                        }
                                 }
 
 
