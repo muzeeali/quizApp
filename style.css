@@ -1,0 +1,19 @@
+.heading{
+    text-align: center;
+    border: 2px solid grey;
+    color: whitesmoke;
+    background-color: black;
+    text-decoration: underline grey;
+}
+.list{
+    list-style-type: lower-alpha;
+}
+.hide{
+    display: none;
+}
+.show{
+    display: inline;
+}
+#remark{
+text-align: center;
+}

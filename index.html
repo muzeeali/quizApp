@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zee Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="heading">
+        <h1>IQ QUIZ</h1>
+    </div>
+    
+    <div id="q1">
+       <h3 > Q1: Who is founder of pakistan?</h3><br>
+      <ol class="list">
+       <h3><li><input id="q1a" type="radio" name="q1" value="a"> Quaid E Azam </li></h3> 
+       <h3><li><input id="q1b"  type="radio" name="q1" value="b"> Allama Iqbal </li></h3> 
+       <h3><li><input id="q1c"  type="radio" name="q1" value="c"> Sir Syed</li></h3>
+       <button onclick="next()">NEXT</button>
+      </ol>
+    </div>
+
+    <div id="q2" class="hide">
+        <h3 > Q2: Annulment of partition of Bengal was announced in?</h3><br>
+       <ol class="list">  
+        <h3><li><input id="q2a" type="radio" name="q1" value="a"> 1912 </li></h3> 
+        <h3><li><input id="q2b"  type="radio" name="q1" value="qb"> 1911 </li></h3> 
+        <h3><li><input id="q2c"  type="radio" name="q1" value="c"> 1914</li></h3>
+        <button onclick="next1()">NEXT</button>
+       </ol>
+     </div>
+     <div id="q3" class="hide">
+        <h3 > Q3:Jinnah was formally enrolled in All India Muslim League in?</h3><br>
+       <ol class="list">
+        <h3><li><input id="q3a" type="radio" name="q1" value="a"> 1911</li></h3> 
+        <h3><li><input id="q3b"  type="radio" name="q1" value="b"> 1916 </li></h3> 
+        <h3><li><input id="q3c"  type="radio" name="q1" value="c"> 1913</li></h3>
+        <button onclick="next2()">NEXT</button>
+       </ol>
+     </div>
+
+     <div id="q4" class="hide">
+        <h3 > Q4: Turkey in the First World War was chose to fight on the side of?</h3><br>
+       <ol class="list">
+        <h3><li><input id="q4a" type="radio" name="q1" value="a"> Farance</li></h3> 
+        <h3><li><input id="q4b"  type="radio" name="q1" value="b"> Germany </li></h3> 
+        <h3><li><input id="q4c"  type="radio" name="q1" value="c"> Russia</li></h3>
+        <button onclick="next3()">NEXT</button>
+       </ol>
+     </div>
+
+     <div id="q5" class="hide">
+        <h3 > Q5: Khilafat was abolished by Mustafa Kamal Pasha in?</h3><br>
+       <ol class="list">
+        <h3><li><input id="q5a" type="radio" name="q1" value="a"> 1924</li></h3> 
+        <h3><li><input id="q5b"  type="radio" name="q1" value="b"> 1926 </li></h3> 
+        <h3><li><input id="q5c"  type="radio" name="q1" value="c"> 1925</li></h3>
+        <button onclick="next4()">NEXT</button>
+       </ol>
+     </div>
+
+     <div id="q6" class="hide">
+        <h3 > Q6: How many words are in Holy Quran?</h3><br>
+       <ol class="list">
+        <h3><li><input id="q6a" type="radio" name="q1" value="a">77777 </li></h3> 
+        <h3><li><input id="q6b"  type="radio" name="q1" value="b"> 77700 </li></h3> 
+        <h3><li><input id="q6c"  type="radio" name="q1" value="c"> 77701 </li></h3>
+        <button onclick="next5()">NEXT</button>
+       </ol>
+     </div>
+
+     <div id="q7" class="hide">
+        <h3 > Q7: Which is the best drink mentioned in Holy Quran?</h3><br>
+       <ol class="list">
+        <h3><li><input id="q7a" type="radio" name="q1" value="a"> Lemon Water</li></h3> 
+        <h3><li><input id="q7b"  type="radio" name="q1" value="b"> Milk </li></h3> 
+        <h3><li><input id="q7c"  type="radio" name="q1" value="c"> Honey</li></h3>
+        <button onclick="next6()">NEXT</button>
+       </ol>
+     </div>
+
+     <div id="q8" class="hide">
+        <h3 > Q8: How many Raque are in Holy Quran?</h3><br>
+       <ol class="list">
+       <h3><li><input id="q8a" type="radio" name="q1" value="a"> 1000</li></h3> 
+        <h3><li><input id="q8b"  type="radio" name="q1" value="b"> 1200 </li></h3> 
+        <h3><li><input id="q8c"  type="radio" name="q1" value="c"> 800</li></h3>
+        <button onclick="next7()">NEXT</button>
+       </ol>
+     </div>
+
+     <div id="q9" class="hide">
+        <h3 > Q9: How many letters are in Holy Quran?</h3><br>
+       <ol class="list"> 
+        <h3><li><input id="q9a" type="radio" name="q1" value="a"> 333762</li></h3> 
+        <h3><li><input id="q9b"  type="radio" name="q1" value="b"> 323671 </li></h3> 
+        <h3><li><input id="q9c"  type="radio" name="q1" value="c"> 323771</li></h3>
+        <button onclick="next8()">NEXT</button>
+       </ol>
+     </div>
+
+     <div id="q10" class="hide">
+        <h3 > Q10: How many Sura start with Besmillah AI-Rahmaan Al-Raheem?</h3><br>
+       <ol class="list"> 
+        <h3><li><input id="q10a" type="radio" name="q1" value="a"> 112 </li></h3> 
+        <h3><li><input id="q10b"  type="radio" name="q1" value="b"> 113 </li></h3> 
+        <h3><li><input id="q10c"  type="radio" name="q1" value="c"> 114</li></h3>
+        <button onclick="next9()">NEXT</button>
+       </ol>
+     </div>
+
+
+<div id="result" class="hide">
+    <h2 id="total"></h2>
+<h2 id="marks"></h2>
+<h2 id="cor"></h2>
+<h2 id="wro"></h2>
+<br>
+<h2 id="remark"></h2>
+</div>
+
+    <script src="app.js"></script>
+</body>
+</html>
